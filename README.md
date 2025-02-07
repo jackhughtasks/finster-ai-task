@@ -1,12 +1,12 @@
 # Finster AI Tasks App
 
-<img width="1045" alt="Screenshot 2025-02-07 at 11 40 36" src="https://github.com/user-attachments/assets/b2225f04-d08e-41d7-8498-2a8a431b1c80" />
+<img width="1045" alt="Screenshot 2025-02-07 at 11 40 36" src="https://github.com/user-attachments/assets/a996a36b-4649-4ecd-a4b2-56a5b95cdd0a" />
 
 ## Setup
 
 1. Clone repo
    ```sh
-   git clone https://github.com/jackhugh/finster-ai-task
+   git clone https://github.com/jackhughtasks/finster-ai-task
    ```
 2. Open repo
    ```sh
