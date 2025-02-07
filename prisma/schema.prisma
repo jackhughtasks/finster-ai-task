@@ -1,0 +1,20 @@
+generator client {
+    provider = "prisma-client-js"
+}
+
+datasource db {
+    // NOTE: using sqlite for quick developer setup
+    provider = "sqlite"
+
+    // NOTE: Would normally store this in an environment variable
+    url = "file:./db.sqlite"
+}
+
+model Task {
+    id        String   @id @default(cuid())
+    title     String
+    // NOTE: if using other DB store, I would use an enum here
+    status    String
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+}
